@@ -1,0 +1,130 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+header h1{
+    font-size: 3rem;
+    margin: 0;   
+}
+.easy-heading {
+    position: relative;
+    top: 75px;
+}
+.easy-heading h2{
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+}
+.easysectionone{
+    padding-left: 100px;
+}
+#ukraine{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    margin: 20px;
+    border: 1px solid white;
+}
+#ukraine > .flag-top{
+    height: 50%;
+    width: 100%;
+    background-color: #0056B9;
+}
+#ukraine > .flag-bottom{
+    height: 50%;
+    width: 100%;
+    background-color: #FFD800;
+}
+#ukraine > p{
+    margin: 0;
+    text-align: center;
+}
+#palau{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    margin: 20px;
+    border: 1px solid white;
+    left: 440px;
+}
+#palau > .flagpartone{
+    height: 100%;
+    width: 100%;
+    background-color: #0085ca
+}
+#palau > .flagparttwo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #FFD100;
+    position: absolute;
+    top: 25px;
+    left: 70px;
+}
+#palau > p{
+    margin: 0;
+    text-align: center;
+}
+#japan{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    margin: 20px;
+    border: 1px solid white;
+    left: 780px;
+}
+#japan > .flagpartone{
+    height: 100%;
+    width: 100%;
+    background-color: white
+}
+#japan > .flagparttwo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #bc002d;
+    position: absolute;
+    top: 25px;
+    left: 100px;
+}
+#japan > p{
+    margin: 0;
+    text-align: center;
+}
+#monaco{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    top: 150px;
+    margin: 20px;
+    border: 1px solid white;
+    left: 1100px;
+}
+#monaco > .flagpartone{
+    height: 50%;
+    width: 100%;
+    background-color: #CE1126;
+}
+#monaco > .flagparttwo{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+}
+#monaco > p{
+    margin: 0;
+    text-align: center;
+}

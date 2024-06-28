@@ -1,16 +1,19 @@
 body{
     font-family: "Montserrat", sans-serif;
     margin: 0;
+    background-color: rgb(232, 232, 232);
 }
 p {
     margin: 0;
     text-align: center;
 }
 header {
-    height: 100px;
+    height: 55px;
     width: 100%;
     text-align: center;
     position: fixed;
+    z-index: 1;
+    background-color: rgb(232, 232, 232);
 }
 header h1{
     font-size: 3rem;
@@ -25,9 +28,6 @@ header h1{
     margin: 0;
     text-align: center;
 }
-.easysectionone{
-    padding-left: 100px;
-}
 #ukraine{
     height: 150px;
     width: 300px;
@@ -36,6 +36,7 @@ header h1{
     top: 150px;
     margin: 20px;
     border: 1px solid white;
+    left: 30px;
 }
 #ukraine > .flag-top{
     height: 50%;
@@ -56,7 +57,7 @@ header h1{
     top: 150px;
     margin: 20px;
     border: 1px solid white;
-    left: 440px;
+    left: 400px;
 }
 #palau > .flagpartone{
     height: 100%;
@@ -80,7 +81,7 @@ header h1{
     top: 150px;
     margin: 20px;
     border: 1px solid white;
-    left: 780px;
+    left: 770px;
 }
 #japan > .flagpartone{
     height: 100%;
@@ -104,7 +105,7 @@ header h1{
     top: 150px;
     margin: 20px;
     border: 1px solid white;
-    left: 1100px;
+    left: 1140px;
 }
 #monaco > .flagpartone{
     height: 50%;
@@ -124,7 +125,7 @@ header h1{
     margin: 20px;
     border: 1px solid white;
     top: 350px;
-    left: 270px;
+    left: 210px;
 
 }
 #poland > .flagpartone{
@@ -145,7 +146,7 @@ header h1{
     margin: 20px;
     border: 1px solid white;
     top: 350px;
-    left: 610px;
+    left: 580px;
 }
 #austria > .flagpartone{
     height: 50px;
@@ -191,3 +192,344 @@ header h1{
     background-color: #d91023;
     display: inline-block;
 }
+#latvia{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    margin: 20px;
+    border: 1px solid white;
+    top: 550px;
+    left: 390px;
+}
+#latvia > .flagpartone{
+    height: 60px;
+    width: 100%;
+    background-color: #77353D;
+}
+#latvia > .flagparttwo{
+    height: 30px;
+    width: 100%;
+    background-color: white;
+}
+#latvia > .flagpartthree{
+    height: 60px;
+    width: 100%;
+    background-color: #77353D;
+}
+#belgium{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    margin: 20px;
+    border: 1px solid white;
+    top: 550px;
+    left: 770px;
+}
+#belgium > .flagpartone{
+    height: 150px;
+    width: 97px;
+    background-color: black;
+    display: inline-block;
+    margin: 0;
+}
+#belgium > .flagparttwo{
+    height: 150px;
+    width: 97px;
+    background-color: yellow;
+    display: inline-block;
+}
+#belgium > .flagpartthree{
+    height: 150px;
+    width: 97px;
+    background-color: red;
+    display: inline-block;
+}
+#bangladesh{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    margin: 20px;
+    border: 1px solid white;
+    top: 750px;
+    left: 580px
+}
+#bangladesh > .flagpartone{
+    height: 100%;
+    width: 100%;
+    background-color: #006a4e;
+}
+#bangladesh > .flagparttwo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #f42a41;
+    position: absolute;
+    left: 70px;
+    top: 25px; 
+}
+.box{
+    border: 1px solid white;
+}
+#dutch{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    margin: 20px;
+    top: 950px;
+    left: 580px;
+}
+#dutch > .box > .flagpartone{
+    height: 50px;
+    width: 100%;
+    background-color: #ad1d25;
+}
+#dutch > .box > .flagparttwo{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+#dutch > .box > .flagpartthree{
+    height: 50px;
+    width: 100%;
+    background-color: #1e4785;
+}
+#yemen{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    margin: 20px;
+    top: 1150px;
+    left: 770px;
+}
+#yemen > .box >.flagpartone{
+    height: 50px;
+    width: 100%;
+    background-color: #ce1126;
+}
+#yemen > .box > .flagparttwo{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+#yemen > .box > .flagpartthree{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+#bolivia{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    margin: 20px;
+    top: 1150px;
+    left: 390px;
+}
+#bolivia > .box > .flagpartone{
+    height: 50px;
+    width: 100%;
+    background-color: #da291c;
+}
+#bolivia > .box > .flagparttwo{
+    height: 50px;
+    width: 100%;
+    background-color: #f4e400;
+}
+#bolivia > .box > .flagpartthree{
+    height: 50px;
+    width: 100%;
+    background-color: #007a33;
+}
+#bulgaria{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    margin: 20px;
+    top: 1350px;
+    left: 580px;
+}
+#bulgaria > .box > .flagpartone{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+#bulgaria > .box > .flagparttwo{
+    height: 50px;
+    width: 100%;
+    background-color: #00966e;
+}
+#bulgaria > .box > .flagpartthree{
+    height: 50px;
+    width: 100%;
+    background-color: #d62612;
+}
+#russia{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    margin: 20px;
+    top: 1350px;
+    left: 210px;
+}
+#russia > .box > .flagpartone{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+#russia > .box > .flagparttwo{
+    height: 50px;
+    width: 100%;
+    background-color: #0033a0;
+}
+#russia > .box > .flagpartthree{
+    height: 50px;
+    width: 100%;
+    background-color: #da291c;
+}
+#germany{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    margin: 20px;
+    top: 1350px;
+    left: 950px;
+}
+#germany > .box > .flagpartone{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+#germany > .box > .flagparttwo{
+    height: 50px;
+    width: 100%;
+    background-color: #dd0000;
+}
+#germany > .box > .flagpartthree{
+    height: 50px;
+    width: 100%;
+    background-color: #ffce00;
+}
+#finland{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    margin: 20px;
+    top: 1550px;
+    left: 30px;
+}
+#finland > .box{
+    position: absolute;
+    height: 150px;
+    width: 300px;
+}
+#finland > .box > .flagpartone{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#finland > .box > .flagparttwo{
+    height: 100%;
+    width: 40px;
+    background-color: #002f6c;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+}
+#finland > .box > .flagpartthree{
+    height: 40px;
+    width: 100%;
+    background-color: #002f6c;
+    position: absolute;
+    top: 55px;
+}
+#sweden{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    margin: 20px;
+    top: 1550px;
+    left: 400px;
+}
+#sweden > .box{
+    position: absolute;
+    height: 150px;
+    width: 300px;
+}
+#sweden > .box > .flagpartone{
+    height: 100%;
+    width: 100%;
+    background-color: #006aa7;
+}
+#sweden > .box > .flagparttwo{
+    height: 100%;
+    width: 40px;
+    background-color: #ffcd00;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+}
+#sweden > .box > .flagpartthree{
+    height: 40px;
+    width: 100%;
+    background-color: #ffcd00;
+    position: absolute;
+    top: 55px;
+}
+#hungary{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    margin: 20px;
+    top: 1550px;
+    left: 770px;
+}
+#hungary > .box > .flagpartone{
+   height: 50px;
+   width: 100%;
+background-color: #ce2939;
+}
+#hungary > .box > .flagparttwo{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+ }
+ #hungary > .box > .flagpartthree{
+    height: 50px;
+    width: 100%;
+    background-color: #477050;
+ }
+ #armenia{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    margin: 20px;
+    top: 1550px;
+    left: 1140px;
+}
+#armenia > .box > .flagpartone{
+   height: 50px;
+   width: 100%;
+background-color: #d90012;
+}
+#armenia > .box > .flagparttwo{
+    height: 50px;
+    width: 100%;
+    background-color: #0033a0;
+ }
+ #armenia > .box > .flagpartthree{
+    height: 50px;
+    width: 100%;
+    background-color: #f2a800;
+ }

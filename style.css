@@ -2,7 +2,10 @@ body{
     font-family: "Montserrat", sans-serif;
     margin: 0;
 }
-
+p {
+    margin: 0;
+    text-align: center;
+}
 header {
     height: 100px;
     width: 100%;
@@ -44,10 +47,7 @@ header h1{
     width: 100%;
     background-color: #FFD800;
 }
-#ukraine > p{
-    margin: 0;
-    text-align: center;
-}
+
 #palau{
     height: 150px;
     width: 300px;
@@ -71,10 +71,6 @@ header h1{
     position: absolute;
     top: 25px;
     left: 70px;
-}
-#palau > p{
-    margin: 0;
-    text-align: center;
 }
 #japan{
     height: 150px;
@@ -100,10 +96,6 @@ header h1{
     top: 25px;
     left: 100px;
 }
-#japan > p{
-    margin: 0;
-    text-align: center;
-}
 #monaco{
     height: 150px;
     width: 300px;
@@ -124,7 +116,78 @@ header h1{
     width: 100%;
     background-color: white;
 }
-#monaco > p{
-    margin: 0;
-    text-align: center;
+#poland{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    margin: 20px;
+    border: 1px solid white;
+    top: 350px;
+    left: 270px;
+
+}
+#poland > .flagpartone{
+    height: 50%;
+    width: 100%;
+    background-color: #CE1126;
+}
+#poland > .flagparttwo{
+    height: 50%;
+    width: 100%;
+    background-color: white;
+}
+#austria{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    margin: 20px;
+    border: 1px solid white;
+    top: 350px;
+    left: 610px;
+}
+#austria > .flagpartone{
+    height: 50px;
+    width: 100%;
+    background-color: #ed2939;
+}
+#austria> .flagparttwo{
+    height: 50px;
+    width: 100%;
+    background-color: white; 
+}
+#austria > .flagpartthree{
+    height: 50px;
+    width: 100%;
+    background-color: #ed2939;
+}
+#peru{
+    height: 150px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    margin: 20px;
+    border: 1px solid white;
+    top: 350px;
+    left: 950px;
+}
+#peru > .flagpartone{
+    height: 100%;
+    width: 97px;
+    background-color: #d91023;
+    display: inline-block;
+}
+#peru > .flagparttwo{
+    height: 100%;
+    width: 97px;
+    background-color: white;
+    display: inline-block;
+}
+
+#peru > .flagpartthree{
+    height: 100%;
+    width: 97px;
+    background-color: #d91023;
+    display: inline-block;
 }
